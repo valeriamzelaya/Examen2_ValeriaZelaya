@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+	font-family: "Catamaran";
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+
+#hero-slides h2{
+	font-size: 55px;
+	font-weight: 900;
+}
+
+#intro div{
+	padding-top: 15px;
+}
+
+.boton{
+	background-color: transparent;
+	color: #FFFFFF;
+	padding: 20px 20px;
+	font-weight: 500;
+	font-size: 20px;
+	border-bottom-color: #FFFFFF;
+	border-radius: 0px;
+	border: thin solid;
+	align-items: center;
+}
+
+#products{
+	padding: 10px 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align:center;
+}
+
+#products div{
+	padding-top: 15px;
+}
+
+#products h4{
+	padding-top: 10px;
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 15px;
+	
+}
+
+#products h5{
+	color: var(--color-rojo);
+	text-align: left;
+	font-size: 15px;
+}
+
+#products s{
+	color: grey;
+	text-align: right;
+	padding-right: 20px;
+	font-size: 10px;
+}
+
+#cta{
+	background-color: var(--color-rojo);
+	background-image: url("../img/bg-parallax.png");
+	padding: 100px 100px;
+	color: #FFFFFF;
+}
+
+#cta h1{
+	font-weight: 900px;
+}
+#cta h4{
+	font-weight: 100px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+
+footer p{
+	margin-bottom: 5px;
+}
+
+footer span{
+	color: var(--color-rojo);
+}
